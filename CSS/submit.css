@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+    padding: 20px;
+}
+.submit-section form {
+display: flex;
+flex-direction: column;
+gap: 15px;
+max-width: 400px;
+margin: auto;
+background: #fff;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.submit-section label {
+    font-weight: bold;
+    color: #8b4513;
+}
+.submit-section input:focus,
+.submit-section textarea:focus {
+    border-color: #8b4513;
+    outline: none;
+    padding: 10px;
+    border: 10px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+.submit-section button {
+    padding: 10px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit-section button:hover {
+    background-color: #daa520;
+}
+h1 {
+    text-align: center;
+}
+#city,
+#detail,
+label[for="city"],
+label[for="detail"] {
+    font-family: 'Noto Serif' serif;
+}
+  .loader {
+    border: 6px solid
+    #f3f3f3;
+    border-top: 6px solid
+    #8b4513;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+
+  }
+  @keyframes spin {
+    0%{transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+  }
